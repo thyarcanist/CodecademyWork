@@ -11,7 +11,8 @@ int main() {
   {
       std::cout << i << " Bottles of Demonus on the wall.\n";
       std::cout << "Take one down and pass it around.\n";
-      std::cout << i-1 << "bottles of demonus on the wall.\n";
+      std::cout << i-1 << "bottles of demonus on the wall.\n\n";
+    // \n\n creates a space inbetween the lines so it isn't cluttered.
   }
   
   // if i is 0, print this statement.
