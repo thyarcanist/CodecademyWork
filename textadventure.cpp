@@ -7,10 +7,19 @@ int main(){
   // Basic Variables
   string playerName = " "; // this needs <string> to run.
   int coin;
+
+  // First Part -- Getting the Key
   bool bRetrievedKey;
   int inputA;
+  // Can Die Here
 
-  // First Part
+  // Second Part -- Finding the Man
+
+  // Can Die Here
+
+  // Third Part -- 
+
+  // Can Die Multiple Times Here
 
   // Text Adventure Start
   std::cout << "Welcome to Purgatory!\n";
@@ -30,7 +39,7 @@ int main(){
       std::cout << "Go to the Door.\n";
       std::cin >> inputA;
 
-      // Control Flow, should loop back to this.
+      // Control Flow, should look back to this.
       if (inputA == 1){
           std::cout << "You got to the laptop and open it. You can really read anything and it vaguely reminds you of latin.\n";
       }
