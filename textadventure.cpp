@@ -52,6 +52,10 @@ int main(){
         case 3:
         std::cout << "You go to the door and try to open it. But you fail to do so. You may need a key.\n";
         std::cout << "You pull away from the door knob and go back.\n";
+        break;
+        default:
+        std::cout << "Nothing."
+        break;
       }
     }
 
