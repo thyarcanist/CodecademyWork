@@ -4,7 +4,7 @@
 
 int main(){
 
-  // Rock, Paper, Scissors, Lizard & Spock
+  // Rock, Paper, Scissors && Player can choose to input or let the computer generate an input.
   srand(time(NULL));
   int computer = rand() % 3 + 1;
   int user = 0;
