@@ -40,14 +40,18 @@ int main(){
       std::cin >> inputA;
 
       // Control Flow, should look back to this.
-      if (inputA == 1){
-          std::cout << "You got to the laptop and open it. You can really read anything and it vaguely reminds you of latin.\n";
-      }
-      else if (inputA == 2){
-          std::cout << "You go to the window. Upon peering more onto the ground, you realize that you may not be home. The figures on the ground stretch from humanoid to blob-like beings.\n";
-      }
-      else if (inputA == 3){
-          std::cout << "You go to the door and try to open it. But you fail to do so. You may need a key.\n";
+      
+      case(inputA){ 
+        case 1:
+        std::cout << "You got to the laptop and open it. You can really read anything and it vaguely reminds you of latin.\n"\
+        break;
+        case 2:
+        std::cout << "You go to the window. Upon peering more onto the ground, you realize that you may not be home. The figures on the ground stretch from humanoid to blob-like beings.\n";
+        std::cout << "You realize that you can open the window. There is a cat peering down on you, it's tail is flickering back and forth.";
+        break;
+        case 3:
+        std::cout << "You go to the door and try to open it. But you fail to do so. You may need a key.\n";
+        std::cout << "You pull away from the door knob and go back.\n";
       }
     }
 
