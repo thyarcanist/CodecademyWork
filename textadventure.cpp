@@ -30,7 +30,7 @@ int main(){
       std::cout << "Go to the Door.\n";
       std::cin >> inputA;
 
-      // Control Flow, should look back to this.
+      // Control Flow, should loop back to this.
       if (inputA == 1){
           std::cout << "You got to the laptop and open it. You can really read anything and it vaguely reminds you of latin.\n";
       }
