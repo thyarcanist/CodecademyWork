@@ -13,7 +13,7 @@ int main() {
   std::string firCall = "Beyonce";
   std::string surCall = "Knowles";
 
-  //
+  // will print out the introduction
   introduction(firCall, surCall);
   
 }
